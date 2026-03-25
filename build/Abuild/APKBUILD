@@ -2,7 +2,7 @@
 # Maintainer: Felix Lionardo <flionardo@qnx.com>
 pkgname=xfce4-appfinder
 pkgver=4.21.0
-pkgrel=${pkgrel:-0}
+pkgrel=0
 pkgdesc="Xfce application finder"
 url="https://xfce.org/"
 arch="all"
@@ -25,7 +25,6 @@ package() {
 }
 
 
-options="$options ${DISABLE_CHECK:+!check}"
 sha512sums="
 8b8029ee32568f00712013e18e1a35e1d1d78cc75ce78ff9f18d3b03f3a5ce537000b3e122730220d082e6c810ab42a12fb67a0cf6b7b8eff0dfde17edaa5fc7  xfce4-appfinder-4.21.0.tar.xz
 "
